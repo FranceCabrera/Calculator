@@ -35,9 +35,8 @@ exponentButton.addEventListener('click', () => {
     updateDisplay();
 });
 
-// Double zero button event listener
 doubleZeroButton.addEventListener('click', () => {
-    appendNumber('00'); // Append '00' to the current operand
+    appendNumber('00');
     updateDisplay();
 });
 
@@ -49,7 +48,7 @@ function appendNumber(number) {
     if (number === '.' && currentOperand.includes('.')) 
         return;
 
-    currentOperand = (currentOperand || '') + number.toString(); // Adjusted to handle initial input
+    currentOperand = (currentOperand || '') + number.toString(); 
 }
 
 function chooseOperation(operator) {
