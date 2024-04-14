@@ -10,7 +10,7 @@ const clearButton = document.getElementById('clear');
 const deleteButton = document.getElementById('delete');
 const dotButton = document.getElementById('dot');
 const exponentButton = document.getElementById('exponent');
-const doubleZeroButton = document.getElementById('double-zero'); // Added
+const doubleZeroButton = document.getElementById('double-zero');
 
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
